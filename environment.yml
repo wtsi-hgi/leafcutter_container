@@ -1,25 +1,9 @@
-name: conda_deconvolution
+name: conda_leafcutter
 channels:
-  - defaults
-  - conda-forge
   - bioconda
-  - anaconda
+  - r 
+  - defaults
 dependencies:
-  - scipy>=1.4.0
-  - seaborn
-  - scikit-learn
-  - statsmodels
-  - numba
-  - pytables
-  - python-igraph
-  - leidenalg
-  - scanpy
-  - matplotlib
-  - plotnine
-  - seaborn
-  - pandas
-  - click
-  - cellsnp-lite
-  - tabix
-  - bcftools
+  - python=2.7
   - samtools
+  - r-base=3.6.0
