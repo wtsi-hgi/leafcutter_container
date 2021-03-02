@@ -10,7 +10,7 @@ export TMPDIR=$PWD/tmp_dir
 rm -f leafcutter.sif                                                                                                                                       
 rm -f leafcutter.img                                                                                                                                       
 singularity pull docker://wtsihgi/leafcutter                                                                                                               
-mv leafcutter.sif leafcutter.img                                                                                                                           
+mv leafcutter_latest.sif leafcutter.img                                                                                                                           
                                                                                                                                                            
 rm -r cache_dir                                                                                                                                            
 rm -r tmp_dir      
