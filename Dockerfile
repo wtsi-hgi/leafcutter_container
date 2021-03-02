@@ -70,5 +70,4 @@ RUN leafcutter_cluster.py --help
 # no --help option: RUN bam2junc.sh --help
 RUN cd /home/leafcutter && git describe --tags
 
-
 CMD /bin/sh
